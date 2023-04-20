@@ -9,7 +9,7 @@ Claiming this project as someone's else is not allowed, and using this app for c
 ### Cloning Repository
 ```
 git clone https://github.com/Exoezeroes/pink-gallery.git
-cd serba-ada-pos
+cd pink-gallery
 ```
 Feel free to add directory name if you wish so (not mandatory)
 ### Install Dependencies
