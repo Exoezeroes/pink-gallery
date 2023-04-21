@@ -7,11 +7,13 @@ import SectionHero from "@/Components/SectionHero.vue";
 import SectionMain from "@/Components/SectionMain.vue";
 import GoogleMap from "@/Components/GoogleMap.vue";
 import SectionFooter from "@/Components/SectionFooter.vue";
+import WhatsApp from "@/Components/WhatsApp.vue";
 </script>
 
 <template>
   <LayoutGuest>
     <Head title="Tentang" />
+    <WhatsApp />
     <SectionHero />
     <SectionMain>
       <AboutHeader />
