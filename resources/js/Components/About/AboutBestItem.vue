@@ -11,7 +11,7 @@ defineProps({
 
 <template>
  <div>
-    <div :class="gradientBgPurplePink" class="h-[400px] rounded">
+    <div :class="gradientBgPurplePink" class="h-[400px] w-fit rounded">
       <img
         class="h-full rounded-sm object-cover p-1"
         :src="product.src"

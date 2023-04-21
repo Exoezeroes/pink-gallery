@@ -8,7 +8,7 @@ import AboutBestItem from "@/Components/About/AboutBestItem.vue";
     <h1 class="text-center text-4xl font-bold text-pink-900 dark:text-pink-200">
       Produk Unggulan Kami
     </h1>
-    <div class="mt-6 grid grid-cols-3 gap-6">
+    <div class="mt-6 grid grid-cols-1 place-items-center lg:grid-cols-3 gap-6">
       <AboutBestItem
         v-for="(product, index) in products"
         :key="index"
