@@ -10,7 +10,7 @@ defineProps({
 </script>
 
 <template>
- <div>
+ <a :href="product.href" target="_blank">
     <div :class="gradientBgPurplePink" class="h-[400px] w-fit rounded">
       <img
         class="h-full rounded-sm object-cover p-1"
@@ -23,5 +23,5 @@ defineProps({
     >
       {{ product.description }}
     </h3>
- </div>
+  </a>
 </template>
