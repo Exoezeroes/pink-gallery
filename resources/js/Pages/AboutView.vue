@@ -3,6 +3,7 @@ import { Head } from "@inertiajs/vue3";
 import LayoutGuest from "@/Layouts/LayoutGuest.vue";
 import SectionHero from "@/Components/SectionHero.vue";
 import SectionMain from "@/Components/SectionMain.vue";
+import GoogleMap from "@/Components/GoogleMap.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import SectionMain from "@/Components/SectionMain.vue";
           <br />adalah toko pakaian dan kebutuhan lainnya <br />di <span class="text-green-400 dark:text-emerald-400">Singkawang</span>
         </h1>
       </div>
+      <GoogleMap />
     </SectionMain>
   </LayoutGuest>
 </template>
