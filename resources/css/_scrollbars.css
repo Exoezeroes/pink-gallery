@@ -38,5 +38,9 @@
     .dark-scrollbars::-webkit-scrollbar-thumb:hover {
       @apply bg-slate-500;
     }
+
+    .dark-scrollbars::-webkit-scrollbar-corner {
+      @apply bg-slate-800;
+    }
   }
   

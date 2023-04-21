@@ -4,7 +4,11 @@ import { defineStore } from "pinia";
 
 export const useStyleStore = defineStore("style", {
   state: () => ({
-    darkMode: true,
+    /* styles */
+    navBarItemLabelStyle: "",
+    navBarItemLabelHoverStyle: "",
+
+    darkMode: false,
   }),
   actions: {
     setStyle(payload) {
